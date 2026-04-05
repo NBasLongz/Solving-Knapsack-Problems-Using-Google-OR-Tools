@@ -114,7 +114,7 @@ def generate_summary():
 
     doc.build(content)
 
-    print("\n HOÀN TẤT! Đã tạo báo cáo thành công tại:")
+    print("\n  Đã tạo báo cáo thành công tại:")
     print(f" {pdf_path}")
 
 

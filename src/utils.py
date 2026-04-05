@@ -26,7 +26,7 @@ def save_results(file_path, result):
     group_name = parts[-4]
     instance_name = os.path.basename(file_path)
 
-    # ===== FILE TỔNG =====
+    # File kết quả tổng hợp
     all_file = "results/all_results.csv"
     write_header = not os.path.exists(all_file)
 
@@ -60,7 +60,7 @@ def save_results(file_path, result):
             result["status"]
         ])
 
-    # ===== FILE THEO GROUP =====
+    # File kết quả theo nhóm
     group_file = f"results/{group_name}.csv"
     write_header = not os.path.exists(group_file)
 

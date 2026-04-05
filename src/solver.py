@@ -9,7 +9,7 @@ def solve_knapsack(values, weights, capacity, time_limit=180):
     )
 
     solver.init(values, [weights], [capacity])
-    solver.set_time_limit(time_limit)  # ms
+    solver.set_time_limit(time_limit)  
 
     start = time.time()
     computed_value = solver.solve()

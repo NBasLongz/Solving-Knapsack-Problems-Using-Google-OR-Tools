@@ -3,7 +3,6 @@ import os
 from utils import read_kp_file, save_results
 from solver import solve_knapsack
 
-
 def main():
     base_dir = os.path.abspath("kplib")
 
