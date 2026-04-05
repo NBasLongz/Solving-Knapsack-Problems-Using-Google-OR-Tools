@@ -1,0 +1,14 @@
+Group,Num_Tests,Optimal_Percent,Avg_Time_s,Avg_Value,Avg_Weight
+00Uncorrelated,14,100.0,0.0,515569.5,312317.21
+01WeaklyCorrelated,14,100.0,0.0,348547.93,315601.29
+05SubsetSum,14,100.0,0.0,315602.86,315602.86
+06UncorrelatedWithSimilarWeights,14,57.14,79.49,473468.71,62588217.0
+04AlmostStronglyCorrelated,14,50.0,94.5,404330.93,315544.57
+10MultipleStronglyCorrelated,14,50.0,103.75,510746.21,315581.93
+02StronglyCorrelated,14,35.71,119.04,404225.29,315468.14
+12Circle,14,28.57,128.8,6650049.57,315602.86
+03InverseStronglyCorrelated,14,28.57,128.91,338085.29,378049.57
+08SpannerWeaklyCorrelated,14,28.57,131.81,307187.29,201390.21
+11ProfitCeiling,14,21.43,145.04,315478.07,315601.79
+07SpannerUncorrelated,14,14.29,154.58,284968.07,132517.36
+09SpannerStronglyCorrelated,14,14.29,157.07,631919.71,201419.71
